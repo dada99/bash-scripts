@@ -7,8 +7,8 @@ case $n in
          #echo "\n";& # execution will continue to next ;;
          #echo "\n";;& # execution will continue to next match pattern
   d | e | f)
-         echo "second"
-         echo "\n";;
-          *)
+         echo "second";;
+         #echo $'\n';;
+  *)
          echo "empty"
 esac         

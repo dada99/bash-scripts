@@ -1,6 +1,6 @@
 #!/bin/bash
 # Usage of special parameter: $*
-# echo '$* With double quotes:'"$*"
+# echo '$* With double quotes:"$*"'
 # echo '$* Without quotes: '$*
 for i in $*
   do

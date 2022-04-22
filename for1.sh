@@ -9,7 +9,10 @@
 #for i in 1 2 3
 #for i in 1,2,3
 #for i in [1 2 3]
-for i in 123
+#for i in 123
+#for i [[ in [1 2 3] ]]
+# words=(1 2 3)
+# for i in "${words[@]}";
   do
    printf "$i \n"
   done

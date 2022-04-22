@@ -11,4 +11,3 @@ until [ $n -lt 0 ]; # stop when $n become negative
     echo $n
     ((n--))
   done
-  
